@@ -27,4 +27,9 @@ public class ProxyTest {
         Interface o = (Interface)Proxy.newProxyInstance(Interface.class.getClassLoader(), new Class[]{Interface.class}, new DynamicProxy(new RealObject()));
         testProxy(o);
     }
+    @Test
+    public void DynamicTest1(){
+       Interface1 o = (Interface1) Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(), new Class[]{Interface.class, Interface1.class}, new DynamicProxy(new RealObject()));
+       o.doNothing();
+    }
 }
