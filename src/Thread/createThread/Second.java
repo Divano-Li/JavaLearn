@@ -1,4 +1,4 @@
-package Thread;
+package Thread.createThread;
 
 public class Second implements Runnable {
 

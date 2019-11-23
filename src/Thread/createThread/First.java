@@ -1,4 +1,4 @@
-package Thread;
+package Thread.createThread;
 
 public class First extends Thread{
     @Override
