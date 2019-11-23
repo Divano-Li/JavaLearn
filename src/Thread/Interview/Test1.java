@@ -1,4 +1,4 @@
-package Thread.CreateThread.Interview;
+package Thread.Interview;
 
 /* 找出这个题目中 不合理的地方
 **

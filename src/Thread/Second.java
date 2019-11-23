@@ -1,4 +1,4 @@
-package Thread.CreateThread;
+package Thread;
 
 public class Second implements Runnable {
 

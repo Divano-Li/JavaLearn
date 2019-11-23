@@ -1,4 +1,4 @@
-package Thread.CreateThread;
+package Thread;
 
 public class First extends Thread{
     @Override
