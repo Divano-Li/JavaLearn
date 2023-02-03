@@ -1,0 +1,11 @@
+线程的常见问题：
+1   线程创建的4种方式
+        继承Thread 类，重写run 方法，
+        new 一个Thread对象 传入实现了 Runnable接口的类 作为构造参数；
+        实现Runnable 接口，重写run 方法
+        实现Callable 接口，重写call方法
+2   线程可以有返回值吗
+        通过实现Callable 接口， 有返回值 同时也能抛出异常
+3   线程Thread 的start 方法和 run 方法有什么区别
+        线程的start 方法和 run 方法的主要区别在于 start 方法会启动一个线程 ， 而run 方法就是跟普通的方法没什么区别，
+        只有在Thread的构造参数中传入了 Runnable 的实现类时， 才会有用
